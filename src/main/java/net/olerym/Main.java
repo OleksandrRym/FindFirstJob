@@ -29,7 +29,7 @@ public class Main {
 
 
     private static WebDriver getDriver() {
-        System.setProperty("webdriver.chrome.driver", "/Users/roa/IdeaProjects/aqa/src/test/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "src/test/chromedriver");
         return new ChromeDriver();
     }
 }
